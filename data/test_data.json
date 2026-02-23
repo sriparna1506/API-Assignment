@@ -1,0 +1,19 @@
+{
+  "create_post_valid": [
+    { "title": "foo", "body": "bar", "userId": 1 },
+    { "title": "baz", "body": "qux", "userId": 2 }
+  ],
+  "update_post_1": {
+    "title": "updated",
+    "body": "updated body",
+    "userId": 1
+  },
+  "update_post_25": {
+    "title": "updated25",
+    "body": "updated body",
+    "userId": 1
+  },
+  "invalid_post": {
+    "invalid": "data"
+  }
+}

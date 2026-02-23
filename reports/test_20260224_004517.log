@@ -1,0 +1,26 @@
+2026-02-24 00:45:17,522 | INFO | API | GET - Fetching all posts
+2026-02-24 00:45:19,234 | INFO | API | Response Status: 200
+2026-02-24 00:45:19,239 | INFO | API | GET - Fetching post with id 1
+2026-02-24 00:45:20,719 | INFO | API | Response Status: 200
+2026-02-24 00:45:20,723 | INFO | API | GET - Fetching post with id 35
+2026-02-24 00:45:22,111 | INFO | API | Response Status: 200
+2026-02-24 00:45:22,115 | INFO | API | POST - Creating new post
+2026-02-24 00:45:23,588 | INFO | API | Response Status: 201
+2026-02-24 00:45:23,592 | INFO | API | POST - Creating new post
+2026-02-24 00:45:25,167 | INFO | API | Response Status: 201
+2026-02-24 00:45:25,171 | INFO | API | PUT - Updating post 1
+2026-02-24 00:45:26,873 | INFO | API | Response Status: 200
+2026-02-24 00:45:26,878 | INFO | API | PUT - Updating post 25
+2026-02-24 00:45:28,509 | INFO | API | Response Status: 200
+2026-02-24 00:45:28,514 | INFO | API | DELETE - Deleting post 2
+2026-02-24 00:45:29,863 | INFO | API | Response Status: 200
+2026-02-24 00:45:29,867 | INFO | API | DELETE - Deleting post 1
+2026-02-24 00:45:31,473 | INFO | API | Response Status: 200
+2026-02-24 00:45:31,477 | INFO | API | DELETE - Deleting post 5
+2026-02-24 00:45:32,871 | INFO | API | Response Status: 200
+2026-02-24 00:45:32,875 | INFO | API | DELETE - Deleting post 10
+2026-02-24 00:45:34,557 | INFO | API | Response Status: 200
+2026-02-24 00:45:34,561 | INFO | API | GET - Fetching post with id 9945
+2026-02-24 00:45:36,044 | INFO | API | Response Status: 404
+2026-02-24 00:45:36,048 | INFO | API | POST - Creating new post
+2026-02-24 00:45:38,959 | INFO | API | Response Status: 201
