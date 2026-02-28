@@ -1,0 +1,34 @@
+2026-02-24 01:09:24,096 | INFO | API | TC001 - Get all posts started
+2026-02-24 01:09:26,009 | INFO | API | Status Code: 200
+2026-02-24 01:09:26,014 | INFO | API | TC002 - Get post by id(1)
+2026-02-24 01:09:27,637 | INFO | API | Status Code: 200
+2026-02-24 01:09:27,640 | INFO | API | TC003 - Get post by id(35)
+2026-02-24 01:09:29,283 | INFO | API | Status Code: 200
+2026-02-24 01:09:29,287 | INFO | API | TC004 - Create Post
+2026-02-24 01:09:31,193 | INFO | API | Status Code: 201
+2026-02-24 01:09:31,198 | INFO | API | TC004 - Create Post
+2026-02-24 01:09:32,969 | INFO | API | Status Code: 201
+2026-02-24 01:09:32,987 | INFO | API | TC005 - Update post(1)
+2026-02-24 01:09:34,876 | INFO | API | Status Code: 200
+2026-02-24 01:09:34,880 | INFO | API | TC006 - Update post(25)
+2026-02-24 01:09:36,818 | INFO | API | Status Code: 200
+2026-02-24 01:09:36,822 | INFO | API | TC007 - Delete post(2)
+2026-02-24 01:09:38,453 | INFO | API | Status Code: 200
+2026-02-24 01:09:38,457 | INFO | API | TC008 - Delete post(1)
+2026-02-24 01:09:40,148 | INFO | API | Status Code: 200
+2026-02-24 01:09:40,154 | INFO | API | TC008 - Delete post(5)
+2026-02-24 01:09:42,145 | INFO | API | Status Code: 200
+2026-02-24 01:09:42,150 | INFO | API | TC008 - Delete post(10)
+2026-02-24 01:09:43,995 | INFO | API | Status Code: 200
+2026-02-24 01:09:44,000 | INFO | API | TC009 - Get non-existent post
+2026-02-24 01:09:45,674 | INFO | API | Status Code: 404
+2026-02-24 01:09:45,679 | INFO | API | TC010 - Create invalid post
+2026-02-24 01:09:47,579 | INFO | API | Status Code: 201
+2026-02-24 01:09:47,583 | INFO | API | TC011 - Get all users
+2026-02-24 01:09:49,134 | INFO | API | Status Code: 200
+2026-02-24 01:09:49,138 | INFO | API | TC012 - Validate user structure
+2026-02-24 01:09:50,755 | INFO | API | Status Code: 200
+2026-02-24 01:09:50,760 | INFO | API | TC013 - Get all comments
+2026-02-24 01:09:52,566 | INFO | API | Status Code: 200
+2026-02-24 01:09:52,572 | INFO | API | TC014 - Get post comments
+2026-02-24 01:09:54,161 | INFO | API | Status Code: 200
