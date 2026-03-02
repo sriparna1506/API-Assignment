@@ -36,7 +36,11 @@ def test_get_post_by_id_1(session):
     logger.info(f"Status Code: {response.status_code}")
     ResponseValidator.verify_status_code(response, 200)
     ResponseValidator.verify_json_value(response, "id", 1)
-
+    ResponseValidator.verify_json_value(response, "id", 1)
+    ResponseValidator.compare_two_json(
+        response.json(),
+        {"id": 1}
+    )
 # TC003 - Get post by id(35)
 def test_get_post_by_id_35(session):
     logger.info("TC003 - Get post by id(35)")
@@ -55,6 +59,11 @@ def test_create_post(session, post_data):
     logger.info(f"Status Code: {response.status_code}")
     ResponseValidator.verify_status_code(response, 201)
     ResponseValidator.verify_json_value(response, "title", post_data["title"])
+    ResponseValidator.verify_json_value(response, "title", post_data["title"])
+    ResponseValidator.compare_two_json(
+        response.json(),
+        {"title": post_data["title"]}
+    )
 
 # TC005 - Update post(1)
 def test_update_post_1(session):
@@ -76,6 +85,15 @@ def test_update_post_25(session):
     ResponseValidator.verify_status_code(response, 200)
     ResponseValidator.verify_json_value(response, "title", data["title"])
     ResponseValidator.verify_json_value(response, "body", data["body"])
+    ResponseValidator.verify_json_value(response, "title", data["title"])
+    ResponseValidator.verify_json_value(response, "body", data["body"])
+    ResponseValidator.compare_two_json(
+        response.json(),
+        {
+            "title": data["title"],
+            "body": data["body"]
+        }
+    )
 
 # TC007 - Delete post(2)
 def test_delete_post(session):

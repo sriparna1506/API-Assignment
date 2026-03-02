@@ -1,0 +1,39 @@
+2026-02-28 22:48:56,825 | INFO | API | TC001 - Get all posts started
+2026-02-28 22:49:07,975 | WARNING | API | Retry 1 for get_all_posts: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Max retries exceeded with url: /posts (Caused by NameResolutionError("HTTPSConnection(host='jsonplaceholder.typicode.com', port=443): Failed to resolve 'jsonplaceholder.typicode.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-28 22:49:11,923 | INFO | API | Status Code: 200
+2026-02-28 22:49:11,926 | INFO | API | TC002 - Get post by id(1)
+2026-02-28 22:49:14,075 | INFO | API | Status Code: 200
+2026-02-28 22:49:14,076 | INFO | API | JSON differences found: {'userId': 'Missing in second JSON', 'title': 'Missing in second JSON', 'body': 'Missing in second JSON'}
+2026-02-28 22:49:14,080 | INFO | API | TC003 - Get post by id(35)
+2026-02-28 22:49:14,687 | INFO | API | Status Code: 200
+2026-02-28 22:49:14,690 | INFO | API | TC004 - Create Post
+2026-02-28 22:49:16,086 | INFO | API | Status Code: 201
+2026-02-28 22:49:16,086 | INFO | API | JSON differences found: {'body': 'Missing in second JSON', 'userId': 'Missing in second JSON', 'id': 'Missing in second JSON'}
+2026-02-28 22:49:16,090 | INFO | API | TC004 - Create Post
+2026-02-28 22:49:17,445 | INFO | API | Status Code: 201
+2026-02-28 22:49:17,445 | INFO | API | JSON differences found: {'body': 'Missing in second JSON', 'userId': 'Missing in second JSON', 'id': 'Missing in second JSON'}
+2026-02-28 22:49:17,448 | INFO | API | TC005 - Update post(1)
+2026-02-28 22:49:19,535 | INFO | API | Status Code: 200
+2026-02-28 22:49:19,539 | INFO | API | TC006 - Update post(25)
+2026-02-28 22:49:22,352 | INFO | API | Status Code: 200
+2026-02-28 22:49:22,352 | INFO | API | JSON differences found: {'userId': 'Missing in second JSON', 'id': 'Missing in second JSON'}
+2026-02-28 22:49:22,356 | INFO | API | TC007 - Delete post(2)
+2026-02-28 22:49:23,631 | INFO | API | Status Code: 200
+2026-02-28 22:49:23,635 | INFO | API | TC008 - Delete post(1)
+2026-02-28 22:49:25,993 | INFO | API | Status Code: 200
+2026-02-28 22:49:25,996 | INFO | API | TC008 - Delete post(5)
+2026-02-28 22:49:28,050 | INFO | API | Status Code: 200
+2026-02-28 22:49:28,053 | INFO | API | TC008 - Delete post(10)
+2026-02-28 22:49:29,366 | INFO | API | Status Code: 200
+2026-02-28 22:49:29,370 | INFO | API | TC009 - Get non-existent post
+2026-02-28 22:49:30,095 | INFO | API | Status Code: 404
+2026-02-28 22:49:30,099 | INFO | API | TC010 - Create invalid post
+2026-02-28 22:49:39,956 | INFO | API | Status Code: 201
+2026-02-28 22:49:39,960 | INFO | API | TC011 - Get all users
+2026-02-28 22:49:40,692 | INFO | API | Status Code: 200
+2026-02-28 22:49:40,696 | INFO | API | TC012 - Validate user structure
+2026-02-28 22:49:41,413 | INFO | API | Status Code: 200
+2026-02-28 22:49:41,424 | INFO | API | TC013 - Get all comments
+2026-02-28 22:49:42,500 | INFO | API | Status Code: 200
+2026-02-28 22:49:42,504 | INFO | API | TC014 - Get post comments
+2026-02-28 22:49:43,702 | INFO | API | Status Code: 200
