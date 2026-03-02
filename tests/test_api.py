@@ -4,6 +4,15 @@ from library.api_client import APIClient
 from library.response_validator import ResponseValidator
 from utils.logging import get_logger
 
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+logger = logging.getLogger()
+
 logger = get_logger()
 
 def load_test_data():
